@@ -4,8 +4,6 @@ import br.com.fiap.biblioteca.model.Exemplar;
 import br.com.fiap.biblioteca.model.Leitor;
 import br.com.fiap.biblioteca.model.Livro;
 
-import java.util.Scanner;
-
 public class BibliotecaApp {
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package br.com.fiap.biblioteca.model;
 
-public class Livro {
+public class exemplar {
     private int codigo;
     String tituto;
     String autor;
