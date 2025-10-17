@@ -1,6 +1,7 @@
 package br.com.fiap.biblioteca;
 
 import br.com.fiap.biblioteca.model.Exemplar;
+import br.com.fiap.biblioteca.model.Leitor;
 import br.com.fiap.biblioteca.model.Livro;
 
 import java.util.Scanner;
@@ -31,6 +32,11 @@ public class BibliotecaApp {
 
         exemplar1.mostrarDetahesDoExemplar();
         exemplar2.mostrarDetahesDoExemplar();
+
+        Leitor leitor = new Leitor();
+        leitor.setNome("Ana Maria");
+        leitor.setTelefone("31 9 9554 3311");
+
 
         int codigoDoLivro = livro.getCodigo();
         System.out.println(codigoDoLivro);
