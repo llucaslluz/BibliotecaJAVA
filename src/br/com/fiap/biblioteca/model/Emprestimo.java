@@ -40,10 +40,13 @@ public class Emprestimo {
         exemplar.setEmprestado(false);
     }
 
-    public List<Livro> getLivros() {
-        return livros;
+    public void mostrarEmprestimo(){
+        System.out.println("Nome do Leitor: " + leitor.getNome());
+        System.out.println("Id do Emprestimo: " + this.id);
+        for (Exemplar exemplar : exemplares) {
+            System.out.println("Tituto: " +  exemplar.getLivro());
+        }
+        System.out.println("___________________________");
     }
-
-
 }
 
